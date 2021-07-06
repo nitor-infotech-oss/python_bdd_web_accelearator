@@ -87,6 +87,8 @@
     - Under the Keys tab, click on `Add keys` and than get all the details from the page and replace the same in file `google_config.json`.<br/>  
 
 - Download dependencies by using the following command:<br />```pip install -r requirements.txt```
+- Copy the file ```sheets.googleapis.com-python-quickstart.json``` file from project root folder to ```C://users/{username}/.credentials``` folder.
+- Extract the ```allure.zip``` to your preferred location and set the path of ```allure\bin\``` to your System Environment.
 
 ### Config Parameters
 - The base url of API is configurable and can be configured in `common.py` in `Util` folder.

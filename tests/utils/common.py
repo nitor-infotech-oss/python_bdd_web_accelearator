@@ -124,7 +124,7 @@ def generate_random_details():
         'company': company_name,
         'city': city_name,
         'addr_1': addr_1,
-        'zip': zip_code,
+        'zip': "{}{}".format(zip_code, fake.random_int(0, 9)),
         'phone': str(phone_number)
 
     }
